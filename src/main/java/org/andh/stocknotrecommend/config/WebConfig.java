@@ -20,7 +20,7 @@ public class WebConfig implements WebMvcConfigurer {
      *    - `.jsp` 확장자를 자동으로 붙여줌
      *
      * ✅ **예제**
-     *   - 컨트롤러에서 `return "index";` 하면 `/WEB-INF/views/index.jsp` 파일이 렌더링됨
+     *   - 컨트롤러에서 `return "main";` 하면 `/WEB-INF/views/main.jsp` 파일이 렌더링됨
      */
     @Bean
     public ViewResolver viewResolver() {
